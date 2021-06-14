@@ -7,12 +7,14 @@ import { StoreModule } from '@ngrx/store';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponentComponent } from './login-component/login-component.component';
 import { NavbarComponentComponent } from './navbar-component/navbar-component.component';
+import { RegisterComponentComponent } from './register-component/register-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponentComponent,
-    NavbarComponentComponent
+    NavbarComponentComponent,
+    RegisterComponentComponent
   ],
   imports: [
     BrowserModule,
